@@ -36,6 +36,14 @@ public class Menu {
 
     }
 
+    private void sayGoodbye() {
+
+    }
+
+    private void saveCellar() {
+
+    }
+
     private void printVintage() {
     }
 
