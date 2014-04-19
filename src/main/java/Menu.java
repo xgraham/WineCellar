@@ -52,7 +52,7 @@ public class Menu {
         String name = response.readString();
         System.out.println("How many would you like to add?");
         int count = response.readValue();
-        WineBrand addition = new WineBrand( name );
+        Wine addition = new Wine( name );
         addition.setCount( count );
         cellar.addWine(addition);
     }
