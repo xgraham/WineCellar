@@ -2,7 +2,7 @@
  * This class encapsulates a particular type of wine held within a cellar
  * @author Alex Graham
  */
-// winery, vintage, price, grape, color, number)
+// winery, vintage, price, color, number)
 
 public class Wine {
     private String wineName;
@@ -12,7 +12,12 @@ public class Wine {
     private Color color;
 
     public Wine( String wineName ) {
+
         this.wineName = wineName;
+        this.vintage="Not Set";
+        this.note = "";
+        this.color = Color.UNKNOWN;
+        this.count = 0;
     }
 
     public String getNote() {
